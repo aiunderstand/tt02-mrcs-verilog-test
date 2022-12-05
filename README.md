@@ -1,14 +1,10 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# Tiny Tapeout TT02 entry: Sigma-Delta ADC/DAC
-
-Run `make` to build `src/adc_dac.v` from the Amaranth file `adc_dac.py`.
-
-Run `make test` to run the logic simulation tests.
+# Tiny Tapeout TT02 entry: MRCS auto-generated verilog 
 
 ## How does it work?
 
-This README is TODO. Sorry, gotta finish the design first!
+2d0
 
 ## What is Tiny Tapeout?
 
