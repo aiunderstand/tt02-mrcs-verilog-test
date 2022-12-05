@@ -1,22 +1,14 @@
 module c_tt2_mrcs_test (
-     input [0:0] in_0,
-     input [0:0] in_1,
-     output [0:0] out_0,
-     output [0:0] out_1,
-     output [0:0] out_2,
-     output [0:0] out_3,
-     output [0:0] out_4,
-     output [0:0] out_5,
-     output [0:0] out_6,
-     output [0:0] out_7
+  input [2:0] io_in,
+  output [7:0] io_out  
 );
 
-wire net_0 = in_0;
+wire net_0 = io_in[0];
 wire net_1 = net_0;
 wire net_2 = net_0;
 wire net_3 = net_0;
 wire net_4 = net_0;
-wire net_5 = in_1;
+wire net_5 = io_in[1];
 wire net_6 = net_5;
 wire net_7 = net_5;
 wire net_8 = net_5;
@@ -32,14 +24,14 @@ wire net_16;
 wire net_17;
 wire net_18;
 
-assign out_0 = net_9;
-assign out_1 = net_10;
-assign out_2 = net_11;
-assign out_3 = net_12;
-assign out_4 = net_13;
-assign out_5 = net_14;
-assign out_6 = net_15;
-assign out_7 = net_16;
+assign io_out[0] = net_9;
+assign io_out[1] = net_10;
+assign io_out[2] = net_11;
+assign io_out[3] = net_12;
+assign io_out[4] = net_13;
+assign io_out[5] = net_14;
+assign io_out[6] = net_15;
+assign io_out[7] = net_16;
 
 c_BIN_DFF SavedGate_0 (
 .in_0(net_1),
